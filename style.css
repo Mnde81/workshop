@@ -16,6 +16,11 @@
     
 }
 
+.learnMore {
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
 .topLinePara {
     font-size: 8px;
 }
@@ -27,6 +32,7 @@
     height: 50px;
     /* background-color: bisque; */
     padding: 0 30px;
+    border-bottom: 3px solid rgba(220, 220, 220, 0.3);
 }
 
 .headerContainer img {
@@ -63,4 +69,47 @@
     border-radius: 5px;
     font-size: 10px;
     padding: 5px 10px;
+    cursor: pointer;
 }
+
+
+
+.headerButton:hover {
+    color: white;
+    background-color: #9A54BC;
+}
+
+
+.topSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.topSectionHeader {
+    font-size: 32px;
+    text-align: center;
+    color: #2B0236;  
+
+}
+
+.topSectionButton {
+    background-color: #9A54BC;
+    padding: 10px 15px;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.topSectionButton:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+
+
+
