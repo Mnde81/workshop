@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 21px;
+}
+
 .topLine {
     width: 100%;
     height: 30px;
@@ -111,5 +115,68 @@
     cursor: pointer;
 }
 
+.elipsesContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+    
+    
+}
 
+.absolute {
+    position: absolute;
+}
+
+.smallElipse {
+    top: 130px;
+}
+
+.bigElipse {   
+    top: 100px;
+}
+
+.rectangle {    
+    top: 135px;
+}
+
+.collab {    
+    top: 185px;
+}
+
+.elipseBtn {    
+    top: 425px;
+    /* bottom: 155px; */
+    padding: 3px 7px;
+    font-size: 10px;
+    background-color: white;
+    border: 1.5px solid #9A54BC;
+    border-radius: 3px;
+    color: #9A54BC;
+    cursor: pointer;
+
+}
+
+.elipseBtn:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.icons {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
