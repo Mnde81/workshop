@@ -12,6 +12,19 @@ h2 {
     font-size: 21px;
 }
 
+.cssForFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .topLine {
     width: 100%;
     height: 30px;
@@ -89,10 +102,10 @@ h2 {
 
 
 .topSection {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
     margin-top: 50px;
     gap: 30px;
 }
@@ -121,9 +134,9 @@ h2 {
 
 .elipsesContainer {
     position: relative;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     margin-top: 50px;
     height: 500px;
     
@@ -169,10 +182,10 @@ h2 {
 }
 
 .iconsContainer {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
     gap: 50px;
     margin-top: 80px;
 }
@@ -186,17 +199,17 @@ h2 {
 
 .bigPhoneContainer {
     margin-top: 100px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
     gap: 2rem;
 }
 
 .vendorAppAndPhoneContainer {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     width: 80%;
     gap: 50px;
 }
@@ -280,5 +293,104 @@ h2 {
     text-align: center;
     font-size: 12px;
     font-weight: 400;
+}
+
+.smallCardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.cardsContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.smallCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.smallCard span {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.span1 {
+    color: #9A54BC;
+}
+
+.bigThreeCardsContainer {
+    margin-top: 75px;
+    gap: 15px;
+}
+
+.bigThreeCardsContainer span {
+    color: #A79D9D;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.discountContainer {
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.yearly {
+    color: black!important;
+}
+
+.discount {
+    font-size: 7px!important;
+    background-color: #FFE87A;
+    padding: 2px;
+    border-radius: 5px;
+    color: black!important;
+}
+
+.bigCardsContainer {
+    gap: 50px;
+    width: 50%;
+}
+
+.bigCard {
+    border: 1px black solid;
+    padding: 20px 25px;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #aaaa;
+    border-radius: 5px;
+}
+
+.bigCardPara {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bigCard button {
+    color: #2B0236;
+    border: 2px solid #2B0236;
+    background-color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.bigCardsList li {
+    padding-left: 10px; 
+   
+}
+
+.bigCardsList li::marker {
+    content: "▶";   
 }
 
