@@ -102,10 +102,6 @@ h2 {
 
 
 .topSection {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
     margin-top: 50px;
     gap: 30px;
 }
@@ -133,10 +129,7 @@ h2 {
 }
 
 .elipsesContainer {
-    position: relative;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    position: relative;    
     margin-top: 50px;
     height: 500px;
     
@@ -181,11 +174,7 @@ h2 {
     color: white;
 }
 
-.iconsContainer {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
+.iconsContainer {  
     gap: 50px;
     margin-top: 80px;
 }
@@ -198,18 +187,11 @@ h2 {
 }
 
 .bigPhoneContainer {
-    margin-top: 100px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
+    margin-top: 100px;    
     gap: 2rem;
 }
 
-.vendorAppAndPhoneContainer {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+.vendorAppAndPhoneContainer {    
     width: 80%;
     gap: 50px;
 }
