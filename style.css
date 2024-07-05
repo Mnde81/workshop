@@ -369,10 +369,304 @@ h2 {
 
 .bigCardsList li {
     padding-left: 10px; 
-   
+    font-size: 0.8rem;
+    padding-top: 10px;   
 }
 
 .bigCardsList li::marker {
     content: "▶";   
 }
 
+.card3 {
+    background-color: #56E6A5;
+
+}
+
+.cardBtn3 {
+    margin-top: 50px;
+}
+
+.cardP3 {
+    font-size: 0.8rem;
+}
+
+.starsContainer {
+    margin-top: 80px;
+}
+
+.arrow {
+    justify-content: space-between;
+    gap: 200px;
+    margin: 40px 40px;
+    text-align: center;
+}
+
+.face {
+    width: 60px;
+}
+
+.faceP {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.arrowP {
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.faces {
+    margin-top: 100px;
+}
+
+.facesDiv {
+    margin-top: 30px;
+    gap: 30px;
+    text-align: center;    
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.facesDiv > p {
+    width: 40%;
+}
+
+.facesDiv > button {
+    padding: 0.5rem 1rem;
+    background-color: #9A54BC;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.facesDiv > button:hover {
+    border: 2px solid #9A54BC;
+    cursor: pointer;
+    background-color: white;
+    color: #9A54BC;
+}
+
+.facesIcons {
+    position: relative;
+}
+
+.vector {
+    position: absolute;
+    width: 60rem;
+    top: 0;
+    left: 205px;
+}
+
+.face1 {
+    position: absolute;
+    top: -10px;
+    left: 190px;
+    z-index: 1;
+}
+
+.face2 {
+    position: absolute;
+    top: 105px;
+    left: 260px;
+    z-index: 1;
+}
+
+.face3 {
+    position: absolute;
+    top: 110px;
+    left: 450px;
+    z-index: 1;
+}
+
+.face4 {
+    position: absolute;
+    top: 180px;
+    left: 590px;
+    z-index: 1;
+}
+
+.face5 {
+    position: absolute;
+    top: 190px;
+    left: 730px;
+    z-index: 1;
+}
+
+.face6 {
+    position: absolute;
+    top: 150px;
+    left: 880px;
+    z-index: 1;
+}
+
+.face7 {
+    position: absolute;
+    top: 190px;
+    left: 1020px;
+    z-index: 1;
+}
+
+.face8 {
+    position: absolute;
+    top: 130px;
+    left: 1130px;
+    z-index: 1;
+}
+
+.you {
+    position: absolute;
+    top: 62px;
+    left: 1027px;
+    color: #9A54BC;    
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.downloadContainer {
+    margin-top: 400px;
+    background-color: #9A54BC;
+    height: 400px;
+}
+
+.downloadContainer > p {
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+
+.downloadBtn {
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+
+.downloadBtn1 {
+    padding: 0.5rem 1rem;
+    background-color: #9A54BC;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.downloadBtn1:hover {
+    border: 2px solid #9A54BC;
+    cursor: pointer;
+    background-color: white;
+    color: #9A54BC;
+}
+
+.mapContainer > div {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 300px;
+    justify-content: space-around;
+    
+}
+
+.mapContacts {
+    gap: 25px;      
+}
+
+.mapContacts p {
+    font-size: 14px;
+    font-weight: 500;
+   }
+
+
+.mapContainer {
+    background-color: #ddcfe4;
+    height: 400px;
+}
+
+
+
+
+
+
+.footerContainerfirst {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;    
+}
+
+.cflex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 45px;
+}
+
+.collabSection {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.textCollabfollow {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.collabIcon {
+    width: 100px;
+}
+
+.company span {
+    font-weight: 600;
+}
+
+.resources span {
+    font-weight: 600;
+}
+
+.legal span {
+    font-weight: 600;
+}
+
+.company a {
+    text-decoration: none;
+    color: #60267F;
+    font-size: 14px;
+}
+
+.resources a {
+    text-decoration: none;
+    color: #60267F;
+    font-size: 14px;
+}
+
+.legal a {
+    text-decoration: none;
+    color: #60267F;
+    font-size: 14px;
+}
+
+.iconslist {
+    display: flex;
+    gap: 20px;
+}
+
+.contactUs {
+    margin-left: 690px;
+}
+
+.contactUsspan1 {
+    font-weight: 600;
+}
+
+.contactUsspan2 {    
+    color: #60267F;
+    font-size: 14px;
+}
+
+.footerContainersecond {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #9A54BC;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
