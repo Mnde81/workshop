@@ -368,6 +368,11 @@ h2 {
     cursor: pointer;
 }
 
+.bigCard button:hover {
+    background-color: black;
+    color: white;
+}
+
 .bigCardsList li {
     padding-left: 10px; 
     font-size: 0.8rem;
@@ -651,11 +656,12 @@ h2 {
 }
 
 .contactUs {
-    margin-left: 710px;
+    margin-left: 710px;        
 }
 
+
 .contactUsspan1 {
-    font-weight: 600;
+    font-weight: 600;    
 }
 
 .contactUsspan2 {    
