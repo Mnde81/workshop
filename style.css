@@ -655,11 +655,6 @@ h2 {
     gap: 20px;
 }
 
-.contactUs {
-    margin-left: 710px;        
-}
-
-
 .contactUsspan1 {
     font-weight: 600;    
 }
@@ -676,4 +671,15 @@ h2 {
     color: white;
     font-size: 14px;
     padding: 10px;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contactSectionDiv {
+    display: flex;
+    gap: 100px;
 }
